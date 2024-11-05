@@ -1,0 +1,35 @@
+/*---- text-----*/
+.text-regular-norm {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text-regular-small {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.text-regular-big {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.text-bold-big {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+.text-white {
+    color: var(--color-white);
+}
+
+.text-black {
+    color: var(--color-black)
+}
+
+.text-blue {
+    color: var(--color-blue);
+}

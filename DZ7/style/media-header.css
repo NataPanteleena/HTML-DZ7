@@ -1,0 +1,129 @@
+/*------header---------------*/
+@media (max-width: 1000px) {
+    .header {
+        background-color: var(--color-white);
+        border-bottom: 1px solid var(--color-btn-background-grey);   
+        width: 100%;
+    }
+    .header-wrapper {
+        max-width: 1000px;
+        min-width: 769px;
+        height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 5px;
+    }
+    .header__block {
+        max-width: 320px;
+        min-width: 260px;
+        display: flex;
+        flex: 0 1 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__link-enter {
+        background: url('./enter_man.svg') no-repeat left;
+        width: 72px;
+        display: flex;
+        text-align: center;
+        justify-content: right;
+    }
+    .header__link-proposal{
+        max-width: 220px;
+        height: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .header {
+        background-color: var(--color-white);
+        border-bottom: 1px solid var(--color-btn-background-grey);   
+        width: 100%;
+    }
+    .header-wrapper {
+        max-width: 768px;
+        min-width: 321px;
+        height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .header__block {
+        max-width: 280px;
+        min-width: 150px;
+        display: flex;
+        flex-flow: 1;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__link-enter {
+        background: none;
+        width: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: right;
+    }
+    .header__link-proposal{
+        max-width: 180px;
+        min-width: 60px;
+        height: 40px;
+        text-align: center;
+        margin: 0 5px;
+    }
+    .header__link-enter__text {
+        opacity: 100;
+    }
+    .header__logo {
+        height: 40px;
+        width: 92px;
+        align-content: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        background-color: var(--color-white);
+        border-bottom: 1px solid var(--color-btn-background-grey);   
+        width: 100%;
+    }
+    .header-wrapper {
+        max-width: 320px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__block {
+        max-width: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .header__link-enter {
+        background: url('./enter_man.svg') no-repeat center;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .header__link-proposal{
+        max-width: 80px;
+        min-width: 60px;
+        height: 40px;
+        text-align: center;
+    }
+    .header__link-enter__text {
+        opacity: 0;
+    }
+    .header__logo {
+        width: 50%;
+        height: 50%;
+    }
+    }
